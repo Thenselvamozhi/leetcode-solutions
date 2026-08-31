@@ -1,6 +1,9 @@
 class Solution(object):
     def maximumWealth(self, accounts):
-        all_total = []
-        for ch in accounts:
-            all_total.append(sum(ch))
-        return max(all_total)
+        maximum = -1
+        for i in accounts:
+            sum = 0
+            for j in i:
+                sum += j
+            maximum = max(maximum, sum)
+        return maximum
