@@ -3,6 +3,6 @@
 - Difficulty: Easy
 - LeetCode problem: https://leetcode.com/problems/running-sum-of-1d-array/
 - Language: python
-- Runtime: n/a
-- Memory: 12644000
-- Solved: 2025-12-09
+- Runtime: 3
+- Memory: 12496000
+- Solved: 2026-08-31
