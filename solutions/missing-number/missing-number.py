@@ -1,6 +1,8 @@
-class Solution:
-    def missingNumber(self, nums: List[int]) -> int:
-        ans = len(nums)
-        for i in range(len(nums)):
-            ans = ans ^ i ^ nums[i]
-        return ans
+class Solution(object):
+    def missingNumber(self, nums):
+        currentSum = 0
+        for i in nums:
+            currentSum += i
+        n = len(nums)
+        expectedSum = n*(n+1) / 2
+        return expectedSum - currentSum
