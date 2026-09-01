@@ -1,14 +1,13 @@
-class Solution:
-    def majorityElement(self, nums: List[int]) -> int:
+class Solution(object):
+    def majorityElement(self, nums):
+        current = nums[0]
         count = 0
-        majority_element = nums[0]
-        for num in nums:
-            if num == majority_element:
+        for i in nums:
+            if i==current:
                 count += 1
-            elif count == 0:
-                count = 1
-                majority_element = num
             else:
                 count -= 1
-        return majority_element
-            
+                if count == 0:
+                    current = i
+                    count = 1
+        return current
