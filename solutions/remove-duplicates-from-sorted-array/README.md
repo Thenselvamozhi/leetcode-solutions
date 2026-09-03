@@ -2,7 +2,7 @@
 
 - Difficulty: Easy
 - LeetCode problem: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
-- Language: python3
-- Runtime: 6
-- Memory: 20572000
-- Solved: 2026-01-10
+- Language: python
+- Runtime: 8
+- Memory: 13724000
+- Solved: 2026-09-03
