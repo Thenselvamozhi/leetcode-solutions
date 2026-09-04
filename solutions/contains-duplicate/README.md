@@ -2,7 +2,7 @@
 
 - Difficulty: Easy
 - LeetCode problem: https://leetcode.com/problems/contains-duplicate/
-- Language: python3
+- Language: python
 - Runtime: 18
-- Memory: 33820000
-- Solved: 2026-01-05
+- Memory: 28576000
+- Solved: 2026-09-04
