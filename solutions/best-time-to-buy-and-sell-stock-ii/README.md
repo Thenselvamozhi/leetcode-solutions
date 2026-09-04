@@ -2,7 +2,7 @@
 
 - Difficulty: Medium
 - LeetCode problem: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
-- Language: python3
-- Runtime: 3
-- Memory: 20352000
+- Language: python
+- Runtime: 4
+- Memory: 13720000
 - Solved: 2026-09-04
