@@ -1,13 +1,10 @@
-class Solution:
-    def isAnagram(self, s: str, t: str) -> bool:
-        hmap = {}
-        for i in s:
-           hmap[i] = hmap.get(i, 0) + 1
-        for i in t:
-            if i in hmap:
-                hmap[i] -= 1
-                if hmap[i] == 0:
-                    del hmap[i]
-            else:
-                return False
-        return True if hmap == {} else False
+class Solution(object):
+    def isAnagram(self, s, t):
+        d = {}
+        if len(s) == len(t):
+            for i in range(len(s)):
+                d[s[i]] = d.get(s[i], 0) + 1
+                d[t[i]] = d.get(t[i], 0) - 1
+            if all(value == 0 for value in d.values()):
+                return True
+        return False
