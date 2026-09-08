@@ -2,7 +2,7 @@
 
 - Difficulty: Medium
 - LeetCode problem: https://leetcode.com/problems/container-with-most-water/
-- Language: python3
-- Runtime: 45
-- Memory: 29900000
-- Solved: 2026-01-06
+- Language: python
+- Runtime: 127
+- Memory: 20804000
+- Solved: 2026-09-08
