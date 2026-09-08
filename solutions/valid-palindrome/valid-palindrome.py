@@ -1,23 +1,15 @@
-class Solution:
-    def isPalindrome(self, s: str) -> bool:
+class Solution(object):
+    def isPalindrome(self, s):
         string = ''
-        i = 0
-        char = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"
-
-        while i < len(s):
-            if s[i] in char:
-                string += s[i]
-            i+=1
-
-        if not string:
-            return True
-        string = string.lower()
-
+        s = s.lower()
+        valid = 'abcdefghijklmnopqrstuvwxyz1234567890'
+        for i in s:
+            if i in valid:
+                string += i
         i, j = 0, len(string)-1
-        while i<j:
-            if string[i] == string[j]:
-                i += 1
-                j -= 1
-            else:
+        while i < j:
+            if string[i] != string[j]:
                 return False
+            i += 1
+            j -= 1
         return True
