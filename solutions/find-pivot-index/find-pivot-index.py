@@ -1,9 +1,9 @@
-class Solution(object):
-    def pivotIndex(self, nums):
-        n, total = len(nums), sum(nums)
-        leftSum = 0
+class Solution:
+    def pivotIndex(self, nums: List[int]) -> int:
+        n = len(nums)
+        leftSum, totalSum = 0, sum(nums)
         for i in range(n):
-            rightSum = total - leftSum - nums[i]
+            rightSum = totalSum - nums[i] - leftSum
             if leftSum == rightSum:
                 return i
             leftSum += nums[i]
