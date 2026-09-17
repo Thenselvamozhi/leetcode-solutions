@@ -4,5 +4,5 @@
 - LeetCode problem: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 - Language: python3
 - Runtime: n/a
-- Memory: 20616000
-- Solved: 2026-08-15
+- Memory: 20700000
+- Solved: 2026-09-17
