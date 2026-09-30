@@ -1,7 +1,7 @@
 class NumArray:
 
     def __init__(self, nums: list[int]):
-        self.prefixSum = [0]*(len(nums)+1)
+        self.prefixSum = [0]*(len(nums) + 1)
         for i in range(1, len(nums)+1):
             self.prefixSum[i] = self.prefixSum[i-1] + nums[i-1]
 
