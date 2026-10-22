@@ -4,5 +4,5 @@
 - LeetCode problem: https://leetcode.com/problems/determine-color-of-a-chessboard-square/
 - Language: python3
 - Runtime: n/a
-- Memory: 19204000
+- Memory: 19320000
 - Solved: 2026-10-22
