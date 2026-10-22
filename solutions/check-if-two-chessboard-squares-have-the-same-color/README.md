@@ -3,6 +3,6 @@
 - Difficulty: Easy
 - LeetCode problem: https://leetcode.com/problems/check-if-two-chessboard-squares-have-the-same-color/
 - Language: python3
-- Runtime: 43
-- Memory: 19228000
+- Runtime: 46
+- Memory: 19004000
 - Solved: 2026-10-22
