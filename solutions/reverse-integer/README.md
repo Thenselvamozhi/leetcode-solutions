@@ -2,7 +2,7 @@
 
 - Difficulty: Medium
 - LeetCode problem: https://leetcode.com/problems/reverse-integer/
-- Language: python
-- Runtime: 11
-- Memory: 12356000
-- Solved: 2025-12-06
+- Language: python3
+- Runtime: 1
+- Memory: 19012000
+- Solved: 2026-10-23
