@@ -1,5 +1,5 @@
-class Solution(object):
-    def findMin(self, nums):
+class Solution:
+    def findMin(self, nums: list[int]) -> int:
         left, right = 0, len(nums)-1
         while left < right:
             mid = (left + right) // 2
