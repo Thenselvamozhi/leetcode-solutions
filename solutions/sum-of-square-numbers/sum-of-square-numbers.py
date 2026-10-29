@@ -1,13 +1,17 @@
 class Solution:
     def judgeSquareSum(self, c: int) -> bool:
-        complements = set()
-        a ,b = 0, 0
-        while (a*a) <= c:
+        for a in range(c+1):
             complement = c - (a*a)
-            complements.add(complement)
-            a+=1
-        while (b*b) <= c:
-            if (b*b) in complements:
-                return True
-            b += 1
+            if complement < 0:
+                break
+            left, right = 0, c
+            while left <= right:
+                mid = (left + right) // 2
+                square = mid * mid
+                if square == complement:
+                    return True
+                elif square < complement:
+                    left = mid + 1
+                else:
+                    right = mid - 1
         return False
