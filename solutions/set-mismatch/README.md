@@ -3,6 +3,6 @@
 - Difficulty: Easy
 - LeetCode problem: https://leetcode.com/problems/set-mismatch/
 - Language: python3
-- Runtime: 8
-- Memory: 21072000
-- Solved: 2026-01-17
+- Runtime: 19
+- Memory: 20528000
+- Solved: 2026-11-05
