@@ -1,10 +1,9 @@
 class Solution:
     def shuffle(self, nums: List[int], n: int) -> List[int]:
-        x, y = 0, n
         ans = [0] * len(nums)
-        for i in range(0, len(nums), 2):
-            ans[i] = nums[x]
-            ans[i+1] = nums[y]
-            x += 1
-            y += 1
+        index = 0
+        for i in range(n):
+            ans[index] = nums[i]
+            ans[index+1] = nums[i+n]
+            index += 2
         return ans
